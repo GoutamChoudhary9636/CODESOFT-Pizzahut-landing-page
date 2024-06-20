@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, ' poppins';
+}
+
+:root {
+    --body-color: white;
+    --chat-color: brown;
+    --nav-border: rgb(223, 222, 222);
+    --hover: rgb(117, 4, 4);
+    --lightgrey: rgb(232, 232, 232);
+    --darkgrey: rgb(58, 58, 58);
+}
+
+/* Navbar */
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0px auto;
+    /* border-bottom: 4px solid var(--nav-border); */
+}
+
+.navright ul {
+    display: flex;
+    gap: 23px;
+}
+
+.navright ul li {
+    list-style: none;
+}
+
+.navright ul li :hover {
+    color: var(--hover);
+    font-size: 1.03rem;
+}
+
+.navright ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navleft {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbutton {
+    margin-left: 24px;
+}
+
+.navbutton button {
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    background-color: var(--chat-color);
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+.brown {
+    color: var(--chat-color);
+}
+
+.border {
+    border: 3px solid var(--lightgrey);
+}
+
+/* main */
+/* Right Section */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroRight img {
+    width: 900px;
+}
+
+.heroLeft {
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    gap: 6px;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text1 {
+    font-size: 14px;
+}
+
+.button button {
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    background-color: var(--chat-color);
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+#offer {
+    background-color: var(--darkgrey);
+}
+
+.left_pizza_img {
+    display: flex;
+}
+
+.left_pizza_img img {
+    width: 100px;
+    margin-top: 12px;
+}
